@@ -1,0 +1,13 @@
+library(shiny)
+RBdata <- read.csv ("data/RB_WQDATA_2016.csv", na.strings=c("NA", " "))
+head(RBdata)
+RBdata$DateTime <- as.Date(RBdata$LocalDateTime,format="%m/%d/%Y %H:%M")
+head(RBdata)
+library(ggplot2)
+library(shinyWidgets)
+#install.packages("shinyWidgets")
+#install.packages("leaflet")
+library(leaflet)
+#install.packages("magrittr")
+library(magrittr)
+

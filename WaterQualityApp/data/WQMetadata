@@ -1,0 +1,8 @@
+Data were collected by iUTAH GAMUT Network for Red Butte Creek
+
+WaterTemp_EXO	- Temperature of the water, degrees Celsius (-5-50)
+pH				- pH (0-14)
+AVGTurb			- Turbidity, Nephelometric Turbidity Units (0-4000)
+ODO_mg_L		- Optical Dissolved Oxygen, mg/L (0-50)
+SiteID			- Name of Sampling Location
+
